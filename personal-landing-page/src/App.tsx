@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 import Section from './components/Section';
 
 export default function App() {
@@ -7,6 +8,8 @@ export default function App() {
       <Navbar />
 
       <main>
+        <Hero />
+
         <Section id="about">
           <h2 className="text-2xl font-semibold text-[var(--color-text)]">About</h2>
         </Section>
