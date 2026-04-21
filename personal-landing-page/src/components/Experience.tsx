@@ -9,8 +9,8 @@ interface ExperienceEntry {
 const entries: ExperienceEntry[] = [
   {
     company: 'Walmart Global Tech',
-    role: 'Backend Software Developer',
-    dates: 'Apr 2025 – Present',
+    role: 'Backend Software Developer(Contract)',
+    dates: 'Apr 2025 – Feb 2026',
     primary: true,
     bullets: [
       'Supported backend systems processing millions of item updates daily across a platform serving 100M+ SKUs.',
@@ -19,8 +19,8 @@ const entries: ExperienceEntry[] = [
     ],
   },
   {
-    company: 'Tutor.com',
-    role: 'Java / Python Tutor',
+    company: 'TPR Education LLC.',
+    role: 'Computer Science Tutor',
     dates: 'Aug 2023 – Apr 2025',
     bullets: [
       'Delivered 600+ tutoring sessions in Java and Python.',
