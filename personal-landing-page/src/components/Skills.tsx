@@ -32,7 +32,7 @@ export default function Skills() {
         {categories.map(({ label, skills }) => (
           <div
             key={label}
-            className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-6"
+            className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-6 transition-colors duration-200 hover:border-[var(--color-accent)]"
           >
             <p className="mb-4 text-xs font-medium tracking-widest uppercase text-[var(--color-muted)]">
               {label}
@@ -41,7 +41,7 @@ export default function Skills() {
               {skills.map((skill) => (
                 <span
                   key={skill}
-                  className="rounded-md bg-[var(--color-bg)] px-3 py-1 text-sm text-[var(--color-text)]"
+                  className="rounded-md bg-[var(--color-bg)] px-3 py-1 text-sm text-[var(--color-text)] cursor-default transition-colors duration-150 hover:bg-[var(--color-accent)] hover:text-white"
                 >
                   {skill}
                 </span>

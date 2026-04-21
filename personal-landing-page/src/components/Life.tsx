@@ -24,7 +24,7 @@ export default function Life() {
         {items.map(({ title, body }) => (
           <div
             key={title}
-            className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-5"
+            className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-5 transition-colors duration-200 hover:border-[var(--color-accent)]"
           >
             <p className="mb-2 text-sm font-medium text-[var(--color-text)]">{title}</p>
             <p className="text-sm leading-6 text-[var(--color-muted)]">{body}</p>
