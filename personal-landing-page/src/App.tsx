@@ -3,7 +3,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
-import Section from './components/Section';
+import Life from './components/Life';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -14,13 +15,11 @@ export default function App() {
         <Hero />
         <About />
         <Skills />
-
         <Experience />
-
-        <Section id="life">
-          <h2 className="text-2xl font-semibold text-[var(--color-text)]">Life</h2>
-        </Section>
+        <Life />
       </main>
+
+      <Footer />
     </div>
   );
 }
