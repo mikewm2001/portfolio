@@ -1,5 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
 import Section from './components/Section';
 
 export default function App() {
@@ -9,14 +11,8 @@ export default function App() {
 
       <main>
         <Hero />
-
-        <Section id="about">
-          <h2 className="text-2xl font-semibold text-[var(--color-text)]">About</h2>
-        </Section>
-
-        <Section id="skills">
-          <h2 className="text-2xl font-semibold text-[var(--color-text)]">Skills</h2>
-        </Section>
+        <About />
+        <Skills />
 
         <Section id="experience">
           <h2 className="text-2xl font-semibold text-[var(--color-text)]">Experience</h2>
