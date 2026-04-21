@@ -38,7 +38,7 @@ export default function Life() {
           download
           className="rounded-md border border-[var(--color-accent)] px-5 py-2.5 text-sm text-[var(--color-accent)] transition-colors hover:bg-[var(--color-accent)] hover:text-[var(--color-bg)]"
         >
-          Download Resume
+          Resume
         </a>
       </div>
     </section>
