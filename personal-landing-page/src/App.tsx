@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
 import Section from './components/Section';
 
 export default function App() {
@@ -14,9 +15,7 @@ export default function App() {
         <About />
         <Skills />
 
-        <Section id="experience">
-          <h2 className="text-2xl font-semibold text-[var(--color-text)]">Experience</h2>
-        </Section>
+        <Experience />
 
         <Section id="life">
           <h2 className="text-2xl font-semibold text-[var(--color-text)]">Life</h2>
