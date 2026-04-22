@@ -17,6 +17,12 @@ export default function Footer() {
         >
           github.com/mikewm2001
         </a>
+        <a
+          href="mailto:michaelwmei09@gmail.com"
+          className="text-xs text-[var(--color-muted)] transition-colors hover:text-[var(--color-text)]"
+        >
+          michaelwmei09@gmail.com
+        </a>
         <p className="text-xs text-[var(--color-muted)] opacity-50">© 2026</p>
       </div>
     </footer>
