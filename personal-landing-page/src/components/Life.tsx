@@ -1,3 +1,5 @@
+import DownloadIcon from './DownloadIcon';
+
 const items = [
   {
     title: 'Fitness',
@@ -16,7 +18,7 @@ const items = [
 export default function Life() {
   return (
     <section id="life" className="mx-auto max-w-4xl px-6 py-24">
-      <h2 className="mb-10 text-xs font-medium tracking-[0.2em] uppercase text-[var(--color-muted)]">
+      <h2 className="mb-10 text-center text-4xl font-semibold tracking-wide text-[var(--color-accent)]">
         Life
       </h2>
 
@@ -24,7 +26,7 @@ export default function Life() {
         {items.map(({ title, body }) => (
           <div
             key={title}
-            className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-5"
+            className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-5 transition-colors duration-200 hover:border-[var(--color-accent)]"
           >
             <p className="mb-2 text-sm font-medium text-[var(--color-text)]">{title}</p>
             <p className="text-sm leading-6 text-[var(--color-muted)]">{body}</p>
@@ -38,7 +40,10 @@ export default function Life() {
           download
           className="rounded-md border border-[var(--color-accent)] px-5 py-2.5 text-sm text-[var(--color-accent)] transition-colors hover:bg-[var(--color-accent)] hover:text-[var(--color-bg)]"
         >
-          Download Resume
+          <span className="flex items-center gap-2">
+            <DownloadIcon />
+            Resume
+          </span>
         </a>
       </div>
     </section>
