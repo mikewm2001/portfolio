@@ -1,12 +1,10 @@
+import DownloadIcon from './DownloadIcon';
+
 const GITHUB_URL = 'https://github.com/mikewm2001';
 
 export default function About() {
   return (
     <section id="about" className="mx-auto max-w-4xl px-6 py-24">
-      <h2 className="mb-10 text-xs font-medium tracking-[0.2em] uppercase text-[var(--color-muted)]">
-        About
-      </h2>
-
       <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:gap-10">
         {/* Profile picture + buttons */}
         <div className="flex shrink-0 flex-col items-center gap-4 sm:items-start">
@@ -21,7 +19,10 @@ export default function About() {
               download
               className="rounded-md border border-[var(--color-accent)] px-5 py-2.5 text-center text-sm text-[var(--color-accent)] transition-colors hover:bg-[var(--color-accent)] hover:text-[var(--color-bg)]"
             >
-              Resume
+              <span className="flex items-center justify-center gap-2">
+                <DownloadIcon />
+                Resume
+              </span>
             </a>
             <a
               href={GITHUB_URL}

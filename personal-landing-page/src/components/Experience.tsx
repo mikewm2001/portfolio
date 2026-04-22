@@ -34,15 +34,15 @@ function EntryCard({ entry }: { entry: ExperienceEntry }) {
   return (
     <div className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-5">
       <div className="mb-3 flex flex-col gap-0.5">
-        <span className="text-sm font-semibold text-[var(--color-text)]">{entry.company}</span>
+        <span className="text-xl font-semibold text-[var(--color-text)]">{entry.company}</span>
         <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5">
           <span className="text-xs text-[var(--color-muted)]">{entry.role}</span>
-          <span className="text-xs text-[var(--color-muted)]">{entry.dates}</span>
+          <span className="text-xs text-[var(--color-accent)]">{entry.dates}</span>
         </div>
       </div>
       <ul className="flex flex-col gap-2">
         {entry.bullets.map((bullet) => (
-          <li key={bullet} className="flex gap-2.5 text-sm leading-6 text-[var(--color-text)]">
+          <li key={bullet} className="flex gap-2.5 text-sm leading-6 text-[var(--color-muted)]">
             <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[var(--color-muted)]" />
             {bullet}
           </li>
@@ -55,7 +55,7 @@ function EntryCard({ entry }: { entry: ExperienceEntry }) {
 export default function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-4xl px-6 py-24">
-      <h2 className="mb-10 text-xs font-medium tracking-[0.2em] uppercase text-[var(--color-muted)]">
+      <h2 className="mb-10 text-center text-4xl font-semibold tracking-wide text-[var(--color-accent)]">
         Experience
       </h2>
 

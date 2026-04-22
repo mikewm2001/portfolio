@@ -24,7 +24,7 @@ const categories = [
 export default function Skills() {
   return (
     <section id="skills" className="mx-auto max-w-4xl px-6 py-24">
-      <h2 className="mb-10 text-xs font-medium tracking-[0.2em] uppercase text-[var(--color-muted)]">
+      <h2 className="mb-10 text-center text-4xl font-semibold tracking-wide text-[var(--color-accent)]">
         Skills
       </h2>
 
@@ -34,7 +34,7 @@ export default function Skills() {
             key={label}
             className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-6 transition-colors duration-200 hover:border-[var(--color-accent)]"
           >
-            <p className="mb-4 text-xs font-medium tracking-widest uppercase text-[var(--color-muted)]">
+            <p className="mb-4 text-xl font-semibold text-[var(--color-text)]">
               {label}
             </p>
             <div className="flex flex-wrap gap-2">
