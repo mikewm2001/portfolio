@@ -1,4 +1,6 @@
 import DownloadIcon from './DownloadIcon';
+import GitHubIcon from './GitHubIcon';
+import EmailIcon from './EmailIcon';
 
 const GITHUB_URL = 'https://github.com/mikewm2001';
 
@@ -30,7 +32,19 @@ export default function About() {
               rel="noopener noreferrer"
               className="rounded-md border border-[var(--color-border)] px-5 py-2.5 text-center text-sm text-[var(--color-muted)] transition-colors hover:border-[var(--color-text)] hover:text-[var(--color-text)]"
             >
-              GitHub
+              <span className="flex items-center justify-center gap-2">
+                <GitHubIcon />
+                GitHub
+              </span>
+            </a>
+            <a
+              href="mailto:michaelwmei09@gmail.com"
+              className="rounded-md border border-[var(--color-border)] px-5 py-2.5 text-center text-sm text-[var(--color-muted)] transition-colors hover:border-[var(--color-text)] hover:text-[var(--color-text)]"
+            >
+              <span className="flex items-center justify-center gap-2">
+                <EmailIcon />
+                Email
+              </span>
             </a>
           </div>
         </div>
