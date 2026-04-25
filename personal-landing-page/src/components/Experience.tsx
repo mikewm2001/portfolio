@@ -26,6 +26,15 @@ const entries: ExperienceEntry[] = [
       'Helped students strengthen debugging, problem-solving, and programming fundamentals.',
     ],
   },
+  {
+    company: 'Outlier AI',
+    role: 'AI Trainer',
+    dates: 'Jan 2024 – Jun 2024',
+    bullets: [
+      'Designed prompt pipelines for LLM workflows, improving consistency across tasks.',
+      'Resolved workflow failures by refining prompts and updating code.',
+    ],
+  },
 ];
 
 const dot = 'h-[11px] w-[11px] rounded-full border-2 border-[var(--color-border)] bg-[var(--color-bg)]';
