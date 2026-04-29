@@ -73,7 +73,7 @@ export default function Experience() {
 
         <div className="flex flex-col gap-8">
           {entries.map((entry, index) => (
-            <div key={entry.company} className="relative">
+            <div key={entry.company} className={`relative ${index === 2 ? 'sm:-mt-25' : ''}`}>
 
               {/* Mobile: left-aligned */}
               <div className="pl-10 sm:hidden">
