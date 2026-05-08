@@ -17,7 +17,7 @@ export default function About() {
           />
           <div className="flex w-44 flex-col gap-3">
             <a
-              href="/resume072.pdf"
+              href="/Resume_B.pdf"
               download
               className="rounded-md border border-[var(--color-accent)] px-5 py-2.5 text-center text-sm text-[var(--color-accent)] transition-colors hover:bg-[var(--color-accent)] hover:text-[var(--color-bg)]"
             >
