@@ -36,7 +36,7 @@ export default function Life() {
 
       <div className="mt-8 flex justify-center">
         <a
-          href="/Resume_B.pdf"
+          href="/Michaels_Resume.pdf"
           download
           className="rounded-md border border-[var(--color-accent)] px-5 py-2.5 text-sm text-[var(--color-accent)] transition-colors hover:bg-[var(--color-accent)] hover:text-[var(--color-bg)]"
         >
